@@ -1,0 +1,13 @@
+include <stdio.h>
+
+int main()
+{
+    printf("Hello vijay");
+    int x=9;
+    printf("\n""%d",x);
+    
+    x=x-19;
+    printf("\n""%d",x);
+    printf("\n""vijay you done your task");
+    return 0;
+}
