@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main()
+{
+  int pin;
+  printf("Enter the pin:");
+  scanf("%d",&pin);
+  if  ( pin== "0099")  {
+      printf("Access granted");
+  }else{
+      printf("Access denied");
+  }
+    return 0;
+}
