@@ -1,0 +1,51 @@
+
+#include <stdio.h>
+
+int main()
+{
+    char operator ;
+    printf("Enter a operator");
+    scanf("%c",&operator);
+    switch (operator){
+    case '1': printf("Addition ");
+    break;
+    case '2': printf("Subtraction ");
+    break;
+    case '3': printf("multiply ");
+    break;
+    case'4': printf("Divide");
+    break;
+    case'5': printf("modilo");
+    break;
+    case'6': printf("no operator ");
+    break;
+    return 0;}
+}
+ 
+
+#include <stdio.h>
+
+int main()
+{
+    char Day ;
+    printf("Enter a Day");
+    scanf("%c",&Day);
+    switch (Day){
+    case '1': printf("monday ");
+    break;
+    case '2': printf("Tuesday ");
+    break;
+    case '3': printf("Wednesday ");
+    break;
+    case'4': printf("Thursday");
+    break;
+    case'5': printf("Friday");
+    break;
+    case'6': printf("Saturday  ");
+    break;
+    case'7': printf("sunday");
+    break;
+    case '8':printf("no day");
+    break;
+    return 0;}
+}
