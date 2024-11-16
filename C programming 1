@@ -52,3 +52,16 @@ int main()
     printf("\n""vijay you done your task");
     return 0;
 }
+
+
+
+
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("Enter the value of a & b: ");
+    scanf("%d%d",&a,&b);
+   int r = a % b;
+    printf(" %d\n",r);
+    return 0;
+}
