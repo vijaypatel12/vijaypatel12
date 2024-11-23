@@ -29,3 +29,25 @@ int main()
 
     return 0;
 }
+
+
+ 1234 =4321 reverse value
+
+#include <stdio.h>
+
+int main()
+{ int n;
+    printf("Enter the value");
+    scanf("%d",&n);
+    int  r=0;
+    while(n>0){
+    r=r*10;
+    r=r+(n%10);
+    n=n/10;
+    }
+    printf("the sum of reverse value %d",r);
+    
+
+    
+    return 0;
+}
