@@ -1,27 +1,2 @@
-C aur C++ dono hi programming languages hain, lekin inmein kuch mahatvapurn farq hain:
-
-Programming Paradigm:
-C: Procedural programming language hai. Ismein functions ke zariye programming ki jaati hai.
-C++: Object-oriented programming (OOP) language hai. Ismein classes aur objects ka istemal hota hai, jo data aur functions ko encapsulate karte hain.
-Data Abstraction:
-C: Data ko functions se alag rakha jata hai.
-C++: Encapsulation ke zariye data aur methods ko ek saath rakhne ki suvidha milti hai.
-Inheritance:
-C: Ismein inheritance ka concept nahi hai.
-C++: Inheritance ki suvidha milti hai, jisse ek class doosri class se properties aur methods inherit kar sakti hai.
-Polymorphism:
-C: Polymorphism ka concept nahi hai.
-C++: Function overloading aur operator overloading ke zariye polymorphism ki suvidha di jaati hai.
-Standard Template Library (STL):
-C: STL nahi hoti.
-C++: STL ka istemal karke algorithms aur data structures ka istemal aasani se kiya ja sakta hai.
-Memory Management:
-C: Memory allocation aur deallocation manual hoti hai (malloc, free).
-C++: Memory management mein constructors aur destructors ka istemal hota hai, jo automatic clean-up karte hain.
-Syntax:
-C: Simple aur straightforward syntax hai.
-C++: Thoda complex syntax hai, kyunki ismein OOP features hote hain.
-In dono languages ka istemal alag-alag situations mein hota hai. C aksar system programming aur embedded systems ke liye istemal hota hai, jabki C++ game development, application software, aur large systems ke liye popular hai.
-
 
 
