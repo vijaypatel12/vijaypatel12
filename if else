@@ -96,7 +96,7 @@ int main()
     return 0;
 }
 
-
+(6) 99  se bda hon 1000 se chota hon 
 #include <stdio.h>
 
 int main()
