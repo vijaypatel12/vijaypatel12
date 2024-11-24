@@ -1,3 +1,4 @@
+the is no. is odd &even
 #include <stdio.h>
 
 int main()
@@ -14,6 +15,8 @@ int main()
     return 0;
 }
 
+
+Divisible by any number 
 #include <stdio.h>
 
 int main()
@@ -30,6 +33,20 @@ int main()
     return 0;
 }
 
+the absolute value
+#include <stdio.h>
+
+int main()
+{ int n;
+    printf("enter the value");
+scanf("%d",&n);
+if(n<0)
+{ n=n*(-1);
+    
+}
+printf("the absolute value is:%d",n);
+    return 0;
+}
 
 
 
