@@ -88,4 +88,21 @@ int main()
     } printf (" the  %d fibonacci is %d",sum,n);
     return 0;
 }
+#include <stdio.h>
+
+int main()
+{ int i=10;
+while(i=20)
+    printf("vijay gurjar");
+
+    return 0;
+}
     
+#include <stdio.h>
+
+int main()
+{ while('a'<'b') 
+    printf("/n Malayalam is s palindrome");
+
+    return 0;
+}
