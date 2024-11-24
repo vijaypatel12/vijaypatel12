@@ -64,23 +64,7 @@ else
   if(n2>=n1&&n2>=n3);
   printf("%d,is the largest number",n2);
   if(n3>=n1&&n3>=n3);
-  printf("%d,is the largest number",n3);
-}    
-
-
-
-
-
-
-
-x = 10
-while True:
-    if x > 5:
-        print("x is greater than 5")
-        x -= 1  # Decrease x by 1 on each loop
-    else:
-        print("x is 5 or less")
-        break  # Exit the loop when x <= 
+  printf("%d,is the largest number ",n3)
 
 
 
