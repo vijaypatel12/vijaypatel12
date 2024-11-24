@@ -1,4 +1,4 @@
-the is no. is odd &even
+(1)the is no. is odd &even
 #include <stdio.h>
 
 int main()
@@ -16,7 +16,7 @@ int main()
 }
 
 
-Divisible by any number 
+(2)Divisible by any number 
 #include <stdio.h>
 
 int main()
@@ -33,7 +33,7 @@ int main()
     return 0;
 }
 
-the absolute value
+(3)the absolute value
 #include <stdio.h>
 
 int main()
@@ -45,6 +45,31 @@ if(n<0)
     
 }
 printf("the absolute value is:%d",n);
+    return 0;
+}
+
+
+(4)profit loss
+
+
+#include <stdio.h>
+
+int main()
+{ int cp;
+int sp;
+    printf("Enter cost price");
+    scanf("%d",&cp);
+    printf("Enter selling price");
+    scanf("%d",&sp);
+    if(cp>sp){
+        printf("loss");
+        
+    }if(sp>cp){
+        printf("profit");
+    } else
+        printf("no profit no loss");
+
+
     return 0;
 }
 
