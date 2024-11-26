@@ -1,4 +1,13 @@
-(1)the is no. is odd &even
+#include <stdio.h>
+
+int main()
+{ float a;
+    printf("Enter the value");
+   scanf("%f",&a);
+   float half=a/2;
+   printf ("this is a half value %f",half);
+    return 0;
+}(1)the is no. is odd &even
 #include <stdio.h>
 
 int main()
@@ -217,3 +226,13 @@ int main()
       }
       return 0;
 }}
+#include <stdio.h>
+
+int main()
+{ float a;
+    printf("Enter the value");
+   scanf("%f",&a);
+   float half=a/2;
+   printf ("this is a half value %f",half);
+    return 0;
+}
