@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{ int rollno[5];
+int i;
+
+    printf(" Enter the value in array");
+for (i=0; i<=4;i++){
+    scanf("%d",&rollno[i]);
+    
+}
+for(i=0;i<=4;i++){
+    printf("%d\n",rollno[i]);
+}
+return 0;
+}
