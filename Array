@@ -1,3 +1,5 @@
+(1)
+
 #include <stdio.h>
 
 int main()
@@ -13,4 +15,25 @@ for(i=0;i<=4;i++){
     printf("%d\n",rollno[i]);
 }
 return 0;
+}
+
+
+
+
+
+(2)sum of two values 
+#include <stdio.h>
+
+int main()
+{
+  int a[4]={10,20,30,40};
+  int b[4]={23,34,56,89};
+  int sum[4];
+  for(int i=0;i<=3;i++){
+      sum[i]=a[i]+b[i];
+  }
+ for(int i=0;i<=3;i++){
+     printf("\nsum of two array%d",sum[i]);
+ }
+    return 0;
 }
