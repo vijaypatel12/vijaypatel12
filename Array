@@ -37,3 +37,42 @@ int main()
  }
     return 0;
 }
+
+
+(3) sum of two array &reverse value
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a[3];
+  int b[3];
+  int sum[3];
+  for(int i=0;i<=2;i++){
+      scanf("%d",&a[i]);
+      
+  }
+      
+     printf("\n");
+  
+  for(int i=0;i<=2;i++){
+      scanf("%d",&b[i]);
+  }
+      printf("\n");
+  
+for(int i=0;i<=2;i++){
+    sum[i]=a[i]+b[i];
+}
+for(int i=0;i<=2;i++){
+    printf("\nsum of two array %d",sum[i]);
+    
+}
+for(int i=2;i>=0;i--){
+    printf("\nreverse of two array %d",sum[i]);
+}
+
+
+
+    return 0;
+}
