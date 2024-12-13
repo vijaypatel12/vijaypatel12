@@ -86,3 +86,19 @@ int main()
 
     return 0;
 }
+
+
+[5]find the maximum no.
+
+#include <stdio.h>
+
+int main()
+{
+    int arr[7]={99,20,90,40,88,60,};
+    int max=-1;
+    for(int i=0;i<=7;i++){
+        if(max<arr[i]){
+        max=arr[i];}
+    } printf("%d",max);
+    return 0;
+}
