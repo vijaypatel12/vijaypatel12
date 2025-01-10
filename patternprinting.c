@@ -159,11 +159,7 @@ int main()
 
 
 
-  *  
-  *
-*****
-  *
-  *
+  
 #include <stdio.h>
 
 int main()
@@ -178,21 +174,18 @@ int main()
         }
         printf("\n");
     }
-    
-    
-
     return 0;
 }
-
-
-
-
-
-##*##
-##*##
+  *  
+  *
 *****
-##*##
-##*##
+  *
+  *
+
+
+
+
+
 
 #include <stdio.h>
 
@@ -206,8 +199,10 @@ int main()
         }
         printf("\n");
     }
-    
-    
-
-    return 0;
+     return 0;
 }
+##*##
+##*##
+*****
+##*##
+##*##
