@@ -1,3 +1,4 @@
+(1)
 #include <stdio.h>
 
 int main()
@@ -16,7 +17,7 @@ int main()
 }
 
 
-
+(2)
 #include <stdio.h>
 
 int main()
@@ -36,7 +37,7 @@ int main()
     return 0;
 }
 
-
+(3)
 #include <stdio.h>
 
 int main()
@@ -52,6 +53,8 @@ int main()
 
     return 0;
 }
+
+(3)
 1
 12
 123
@@ -60,6 +63,7 @@ int main()
 
 
 
+(4)
 #include <stdio.h>
 
 int main()
@@ -78,6 +82,8 @@ int main()
     return 0;
 }
 
+
+(5)
 #include <stdio.h>
 
 int main()
@@ -99,6 +105,7 @@ int main()
 
 
 
+(6)
 #include <stdio.h>
 
 int main()
@@ -116,6 +123,8 @@ int main()
     return 0;
 }
 
+
+(7)
 #include <stdio.h>
 
 int main()
@@ -133,8 +142,8 @@ int main()
     return 0;
 }
 
-  ABCD
-ABCD
+  
+(8)
 #include <stdio.h>
 
 int main()
@@ -159,7 +168,7 @@ int main()
 
 
 
-  
+  (9)
 #include <stdio.h>
 
 int main()
@@ -176,6 +185,7 @@ int main()
     }
     return 0;
 }
+(9)
   *  
   *
 *****
@@ -186,7 +196,7 @@ int main()
 
 
 
-
+(10)
 #include <stdio.h>
 
 int main()
@@ -201,8 +211,42 @@ int main()
     }
      return 0;
 }
+(10)
 ##*##
 ##*##
 *****
 ##*##
 ##*##
+
+
+
+
+
+(11)
+#include <stdio.h>
+
+int main()
+{ int n;
+    printf("Enter the no. of row");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            if(i==j || i+j==n+1) printf("*");
+            
+            else printf(" ");
+        }
+        printf("\n");
+    
+}
+    return 0;
+}
+(11)
+  *   *
+   * *
+    *
+  *   *
+ *     *
+
+
+
+
