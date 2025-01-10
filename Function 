@@ -1,0 +1,15 @@
+#include <stdio.h>
+void greet (){
+    printf("Hello Vijay\n ");
+    printf("How are you\n");
+    return ;
+}
+
+int main()
+{
+   greet ();
+   greet ();
+   
+
+    return 0;
+}
