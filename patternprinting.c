@@ -415,12 +415,66 @@ int main()
 
 
 
-(18) 
 
 
+
+(18) #include <stdio.h>
+
+int main()
+{ int n;
+    printf("Enter the no. of rows");
+   scanf("%d",&n);
+   for(int i=1;i<=n;i++){
+       int a=i-1;
+       for(int q=1;q<=n-i;q++){
+           printf(" ");
+       }
+       for( int j=1;j<=i;j++){
+           printf("%d",j);
+       }
+       for(int k=1;k<=i-1; k++){
+           printf("%d",a);
+           a--;
+       }
+       printf("\n");
+   }
+    return 0;
+}
 (18)
 
        1
       121
      12321
     1234321
+
+
+(19) #include <stdio.h>
+
+int main()
+{ int n;
+    printf("Enter the no. of rows");
+   scanf("%d",&n);
+   for(int i=1;i<=n;i++){
+       int a=i-1;
+       for(int q=1;q<=n-i;q++){
+           printf(" ");
+       }
+       for( int j=1;j<=i;j++){ 
+           char ch= ( char)(j+64);
+           printf("%c",ch);
+       }
+       for(int k=1;k<=i-1; k++){
+           char ch=( char) ( a+64);
+           printf("%c",ch);
+           a--;
+       }
+       printf("\n");
+   }
+    return 0;
+}
+
+(19) 
+     A
+    ABA
+   ABCBA
+  ABCECBA
