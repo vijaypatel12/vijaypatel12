@@ -478,3 +478,15 @@ int main()
     ABA
    ABCBA
   ABCECBA
+
+
+
+
+(20)
+
+
+    *
+   ***
+  *****
+   ***
+    *
