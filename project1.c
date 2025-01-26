@@ -114,3 +114,27 @@ int main()
     return 0;
 }
 
+(6)Relational operator 
+
+
+#include <stdio.h>
+
+int main()
+{
+int a,b;
+printf("Enter two digit no.\n");
+printf("a:");
+scanf("%d",&a);
+printf("b:");
+scanf("%d",&b);
+
+printf("\n logical operators demonstration\n");
+printf("a == b: %d\n",a == b);
+printf("a != b: %d\n",a != b);
+printf ("a > b: %d\n",a > b);
+printf("a < b: %d\n",a < b);
+printf("a <= b: %d\n",a <=b );
+printf("a >= b: %d\n",a > b);
+
+    return 0;
+}
