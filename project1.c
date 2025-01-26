@@ -93,3 +93,22 @@ int main()
 }
 
 
+
+(5)
+#include <stdio.h>
+
+int main()
+{
+    float principal,rate ,time,SI;
+    printf("Enter principal");
+    scanf("%f",&principal);
+    printf("Enter  rate");
+    scanf("%f",&rate);
+    printf("Enter time");
+    scanf("%f",&time);
+    SI= principal*rate*time/1000;
+    printf("the sum interest is %f",SI);
+
+    return 0;
+}
+
