@@ -1,4 +1,4 @@
-(1)
+(1) Arithmetic operator 
 
 #include<stdio.h>
 int main()
@@ -33,7 +33,9 @@ int main()
 
 
 
-(2)
+(2)logical operator 
+
+
 #include <stdio.h>
 
 int main()
@@ -58,7 +60,7 @@ if(!c){
 
 
 
-(3)
+(3)Area of circle
 
 #include <stdio.h>
 int main()
@@ -71,7 +73,7 @@ int main()
 }
 
 
-(4)
+(4) find the student six sub.pass &fail
 #include <stdio.h>
 
 int main()
@@ -94,7 +96,7 @@ int main()
 
 
 
-(5)
+(5) calculate simple interest 
 #include <stdio.h>
 
 int main()
