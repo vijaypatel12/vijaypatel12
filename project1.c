@@ -138,3 +138,27 @@ printf("a >= b: %d\n",a > b);
 
     return 0;
 }
+
+
+
+(6)
+
+#include <stdio.h>
+
+int main()
+{
+    int num1,num2;
+    
+    printf("Enter num1");
+    scanf("%d",&num1);
+    printf("Enter num2");
+    scanf("%d",&num2);
+    if(num1==num2){
+        printf("the number %d %d are equal\n",num1,num2);
+    }
+    else{
+        printf("the number %d %d are not equal\n",num1,num2);
+    }
+
+    return 0;
+}
