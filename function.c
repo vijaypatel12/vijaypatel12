@@ -40,3 +40,24 @@ int main()
 
     return 0;
 }
+
+
+
+(3) swap two value || exchange value
+
+
+#include<stdio.h>
+int main(){
+int a;
+printf("Enter a :");
+scanf("%d",&a);
+int b;
+prinf("Enter b:");
+scanf("%d",&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf(" The value of a:%d",a);
+printf("The value of b:%d",b);
+return 0;
+}
