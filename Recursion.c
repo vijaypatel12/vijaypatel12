@@ -59,3 +59,27 @@ int main()
     3 
     2
     1
+
+(4)parameterized 
+
+#include <stdio.h>
+void increasing(int x,int n){
+    if(n>x)return;
+        printf("%d\n",x);
+    increasing(x+1,n);
+        
+    return;
+}
+int main()
+{ int n;
+    printf("Enter a number");
+    scanf("%d",&n);
+    increasing(1,n);
+
+    return 0;
+}
+
+(4) 1
+    2
+    3
+    4
