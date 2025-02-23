@@ -61,3 +61,19 @@ printf(" The value of a:%d",a);
 printf("The value of b:%d",b);
 return 0;
 }
+
+
+
+(4) square root values find
+#include <stdio.h>
+#include <math.h>
+int main()
+{ 
+
+   int   a;
+    printf("Enter the value");
+    scanf("%d",&a);
+    int root=sqrt(a);
+    printf("the value of a %d",root);
+    return 0;
+}
