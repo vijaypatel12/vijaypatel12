@@ -109,3 +109,26 @@ int main()
     1
     2
     3
+
+(6)sum parameterized 
+#include <stdio.h>
+void sum(int n,int s){
+    if(n==0){
+        printf("%d",s);
+        return;
+    }
+    sum(n-1,s+n);
+    return;
+    
+}
+int main()
+{ int n;
+    printf("Enter a number");
+    scanf("%d",&n);
+    sum(n,0);
+
+    return 0;
+}
+
+
+(6) 1+2+3+4+5=15
