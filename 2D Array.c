@@ -188,5 +188,8 @@ for( int i=0;i<c;i++){
 }
 
 
+(8) transpose matrix and double transpose 
+
+
 
 
