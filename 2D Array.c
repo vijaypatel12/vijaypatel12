@@ -105,3 +105,47 @@ for(int i=0;i<2;i++){
 }
     return 0;
 }
+
+
+(5) total sum of elements 
+
+ # include <stdio.h>
+
+int main()
+{
+ int r;
+ printf("Enter the no  of rows");
+ scanf("%d",&r);
+int c;
+ printf("Enter the no  of column");
+ scanf("%d",&c);
+ printf("Enter no.of   all element ");
+ int arr[r][c];
+ for (int i=0;i<r;i++){
+     for(int j=0;j<c;j++){
+         scanf("%d",&arr[i][j]);
+     }
+     printf("\n");
+ }
+ for(int i=0;i<r;i++){
+     for(int j=0;j<c;j++){
+         printf("%d",arr[i][j]);
+         
+     }
+ }
+ int  sum=0;
+ for(int i=0;i<r;i++){
+     for(int j=0;j<c;j++){
+         sum+=arr[i][j];
+         
+     }
+     printf(" the total sum of matrix elements  is %d ",sum);
+ }
+    return 0;
+}
+
+(5) 
+1 2 3 
+2 3 4
+4 5 6 
+= 30
