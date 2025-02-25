@@ -149,3 +149,18 @@ int c;
 2 3 4
 4 5 6 
 = 30
+
+
+
+(6)maxino.
+
+
+
+
+(7) transpose of matrix
+
+
+
+
+
+
