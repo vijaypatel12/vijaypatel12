@@ -1,3 +1,4 @@
+d
 (1)row &column 
 
 #include <stdio.h>
@@ -190,6 +191,12 @@ for( int i=0;i<c;i++){
 
 (8) transpose matrix and double transpose 
 
+doubt video time 1:55
 
+
+
+
+(9) rotate 90 matrix
+doubt video time 2:10
 
 
