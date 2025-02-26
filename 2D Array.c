@@ -200,3 +200,7 @@ doubt video time 1:55
 doubt video time 2:10
 
 
+
+(10)A matrix *B matrix
+
+
