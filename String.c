@@ -7,3 +7,17 @@ int main()
 
     return 0;
 }
+
+
+
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char*str="vijay patel";
+    int x= strlen(str);
+    printf("%d",x);
+   
+
+    return 0;
+}
